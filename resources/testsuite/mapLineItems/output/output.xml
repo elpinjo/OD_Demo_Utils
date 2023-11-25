@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.util.Values">
+    <array name="inputs" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="orderid">123</value>
+        <value name="linenr">1</value>
+        <value name="SKU">INT500MB</value>
+        <value name="amount">1</value>
+        <value name="unitprice">19.95</value>
+        <value name="totalprice">19.95</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="orderid">123</value>
+        <value name="linenr">2</value>
+        <value name="SKU">TEL</value>
+        <value name="amount">1</value>
+        <value name="unitprice">5.95</value>
+        <value name="totalprice">5.95</value>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>

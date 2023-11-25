@@ -91,7 +91,8 @@
       <value name="modifiable">true</value>
     </record>
   </record>
-  <value name="node_comment"></value>
+  <value name="node_comment">This service concatenates two strings using Java.
+The input StringA and StringB are joined together and returned as result</value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>

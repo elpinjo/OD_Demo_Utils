@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="DemoUtilsTestsuite">
+    <webMethodsTestCase name="01_mapLineItems">
+        <service folder="od.demo.services" name="mapLineItems">
+            <input>
+                <file filename="resources/testsuite/mapLineItems/input/input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/testsuite/mapLineItems/output/output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="02_ConcatenateStrings">
+        <service folder="od.demo.java" name="concatenateStrings">
+            <input>
+                <file filename="resources/testsuite/ConcatStrings/Input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/testsuite/ConcatStrings/Output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>

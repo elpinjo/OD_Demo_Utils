@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="order" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="id">123</value>
+      <value name="orderNumber">NL293004</value>
+      <value name="reference">PH38499</value>
+      <record name="customer" javaclass="com.wm.data.ISMemDataImpl">
+        <value name="id">948</value>
+        <value name="name">Misja Heuveling</value>
+        <value name="postalcode">1102 AH</value>
+        <value name="city">Groningen</value>
+        <value name="crm_id">SFD9839940</value>
+      </record>
+      <array name="lineItems" type="record" depth="1">
+        <record javaclass="com.wm.data.ISMemDataImpl">
+          <value name="lineNumber">1</value>
+          <value name="SKU">INT500MB</value>
+          <value name="amount">1</value>
+          <value name="unitPrice">19.95</value>
+          <value name="totalPrice">19.95</value>
+        </record>
+        <record javaclass="com.wm.data.ISMemDataImpl">
+          <value name="lineNumber">2</value>
+          <value name="SKU">TEL</value>
+          <value name="amount">1</value>
+          <value name="unitPrice">5.95</value>
+          <value name="totalPrice">5.95</value>
+        </record>
+      </array>
+      <value name="totalAmount">25.90</value>
+      <value name="totalTaxes">5.05</value>
+    </record>
+    <value name="orderId">123</value>
+  </record>
+</IDataXMLCoder>
